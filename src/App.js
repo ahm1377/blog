@@ -1,9 +1,17 @@
 function App() {
   return (
     <div className="App">
-      <h1>i want to learn react</h1>
+      <Navbar/>
     </div>
   );
+}
+
+function Navbar(){
+  return(
+    <div>
+      <h1>test</h1>
+    </div>
+  )
 }
 
 export default App;
