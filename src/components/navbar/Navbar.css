@@ -1,0 +1,11 @@
+.header{
+    background-color: crimson;
+}
+
+.header-title{
+    text-align: center;
+}
+
+.header-title:hover{
+    color: #fff;
+}
