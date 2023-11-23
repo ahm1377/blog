@@ -1,10 +1,10 @@
-import "./Navbar.css"
+import styled from "./Navbar.module.css"
+
 function Navbar(){
     return(
-      <div className="header">
-        <h1 className="header-title">navbar</h1>
+      <div className={styled.header}>
+        <h1>navbar</h1>
       </div>
     )
   }
- 
-  export default Navbar;
+export default Navbar;
