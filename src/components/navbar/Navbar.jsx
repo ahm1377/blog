@@ -1,8 +1,10 @@
 import styled from "./Navbar.module.css"
 
 function Navbar(){
-    return(
+  let title="علی بلاگ"  
+  return(
       <div className={styled.header}>
+        <h3>{title}</h3>
         <ul>
           <li>لیست مقالات</li>
           <li>ساخت مقاله</li>
