@@ -1,0 +1,20 @@
+{
+  "articles": {
+    "status": true,
+    "message": "success",
+    "data": [
+      {
+        "id": 1,
+        "imageURL": "",
+        "title": "عنوان اول",
+        "readingTime": 5
+      },
+      {
+        "id": 2,
+        "imageURL": "",
+        "title": "عنوان دوم",
+        "readingTime": 4
+      }
+    ]
+  }
+}
