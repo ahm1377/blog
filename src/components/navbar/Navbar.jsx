@@ -1,10 +1,10 @@
-import styled from "./Navbar.module.css"
+import styled from "./Navbar.module.css";
 
-function Navbar(props){
-  const title="علی بلاگ"  
-  return(
+function Navbar(props) {
+  const title = "علی بلاگ";
+  return (
     <div className={styled.headerWrapper}>
-      <div className="contaner">
+      <div className="container">
         <div className={styled.header}>
           <h3>{props.title}</h3>
           <ul>
@@ -15,6 +15,6 @@ function Navbar(props){
         </div>
       </div>
     </div>
-    );
-  }
+  );
+}
 export default Navbar;
